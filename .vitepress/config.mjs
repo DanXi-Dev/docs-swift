@@ -5,7 +5,7 @@ export default defineConfig({
     title: "旦夕开发者文档",
     description: "iOS端的旦夕开发者文档",
     lang: 'zh-CN',
-    base: '/docs-swift',
+    base: '/docs-swift/',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
