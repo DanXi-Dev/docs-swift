@@ -7,6 +7,20 @@ export default defineConfig({
     base: '/docs-swift/',
     cleanUrls: true,
     themeConfig: {
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇'
+        },
+        outline: {
+            label: '本页目录',
+            level: [2, 3],
+        },
+        footer: {
+            copyright: "版权所有 © 2025 DanXi-Dev。本作品采用知识共享 署名-相同方式共享 4.0 国际许可协议 (CC BY-SA 4.0) 进行许可。 "
+        },
+        darkModeSwitchLabel: '外观',
+        returnToTopLabel: '返回顶部',
+        sidebarMenuLabel: '菜单',
         nav: [
             { text: '首页', link: '/' },
             { text: '开发', link: '/dev/intro' },
